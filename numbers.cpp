@@ -16,7 +16,7 @@ public:
  
     double getFirst() { return m_first; }
     double getSecond() { return m_second; }
-    //double getSum() { return m_first + m_second; }
+    double getSum() { return m_first + m_second; }
     //double getSubtractionFirstBySecond() { return m_first - m_second; }
     //double getSubtractionSecondByFirst() { return m_second - m_first; }
     //double getMultiplication() { return m_first * m_second; }
@@ -35,7 +35,7 @@ public:
 int main()
 {
     Numbers num {2.4, 5.6}; 
-    //std::cout << num.getFirst() << "+" << num.getSecond() << " = " << num.getSum() << '\n';
+    std::cout << num.getFirst() << "+" << num.getSecond() << " = " << num.getSum() << '\n';
     //std::cout << num.getFirst() << "-" << num.getSecond() << " = " << num.getSubtractionFirstBySecond()  << '\n';
     //std::cout << num.getSecond() << "-" << num.getFirst() << " = " << num.getSubtractionSecondByFirst()  << '\n';
     //std::cout << num.getFirst() << "*" << num.getSecond() << " = " << num.getMultiplication() << '\n';
