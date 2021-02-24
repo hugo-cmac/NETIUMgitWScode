@@ -35,7 +35,7 @@ public:
 int main()
 {
     Numbers num {2.4, 5.6}; 
-    //Sum
+    //Soma
     std::cout << num.getFirst() << "+" << num.getSecond() << " = " << num.getSum() << '\n';
     //std::cout << num.getFirst() << "-" << num.getSecond() << " = " << num.getSubtractionFirstBySecond()  << '\n';
     //std::cout << num.getSecond() << "-" << num.getFirst() << " = " << num.getSubtractionSecondByFirst()  << '\n';
